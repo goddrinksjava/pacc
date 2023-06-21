@@ -1,0 +1,304 @@
+ix+rtvar,V,E,0,0,0,#
+jx+rtvar,V,E,0,0,0,#
+return_dir+rtvar,V,E,0,0,0,#
+ax+rtvar,V,E,0,0,0,#
+bx+rtvar,V,E,0,0,0,#
+TAM+var_int@1,V,E,0,0,10,#
+i+var_int@1,V,E,0,0,0,#
+j+var_int@1,V,E,0,0,0,#
+k+var_int@1,V,E,0,0,10,#
+arr+pointer_int@1,V,E,0,0,0,#
+arr+pointer_int@1=,V,E,0,0,0,#
+n+var_int@1,V,E,0,0,0,#
+i+var_int@2,V,E,0,0,0,#
+j+var_int@2,V,E,0,0,0,#
+tmp+var_int@1,V,E,0,0,0,#
+arr+pointer_int@2,V,E,0,0,0,#
+arr+pointer_int@2=,V,E,0,0,0,#
+n+var_int@2,V,E,0,0,0,#
+i+var_int@2,V,E,0,0,0,#
+vec+pointer_int@1*0,V,E,0,0,12,#
+vec+pointer_int@1*1,V,E,0,0,-1,#
+vec+pointer_int@1*2,V,E,0,0,0,#
+vec+pointer_int@1*3,V,E,0,0,99,#
+vec+pointer_int@1*4,V,E,0,0,18,#
+vec+pointer_int@1*5,V,E,0,0,23,#
+vec+pointer_int@1*6,V,E,0,0,55,#
+vec+pointer_int@1*7,V,E,0,0,10,#
+vec+pointer_int@1*8,V,E,0,0,25,#
+vec+pointer_int@1*9,V,E,0,0,30,#
+vec+pointer_int@1,V,E,0,0,1,#
+vec+pointer_int@1=,V,E,0,0,82,#
+_jumptable+rtfn,I,I,246,0,0,#
+_P,I,I,231,0,0,#
+@
+1 STO 0, ix+rtvar
+2 LOD ix+rtvar, 0
+3 JMC 0, 22
+4 LOD ix+rtvar, 0
+5 JMC 1, 28
+6 LOD ix+rtvar, 0
+7 JMC 2, 34
+8 LOD ix+rtvar, 0
+9 JMC 3, 40
+10 LOD ix+rtvar, 0
+11 JMC 4, 46
+12 LOD ix+rtvar, 0
+13 JMC 5, 52
+14 LOD ix+rtvar, 0
+15 JMC 6, 58
+16 LOD ix+rtvar, 0
+17 JMC 7, 64
+18 LOD ix+rtvar, 0
+19 JMC 8, 70
+20 LOD ix+rtvar, 0
+21 JMC 9, 76
+22 LOD vec+pointer_int@1*0, 0
+23 STO 0, ax+rtvar
+24 STO 0, bx+rtvar
+25 LOD ax+rtvar, 0
+26 LOD bx+rtvar, 0
+27 JMP 0, _jumptable+rtfn
+28 LOD vec+pointer_int@1*1, 0
+29 STO 0, ax+rtvar
+30 STO 0, bx+rtvar
+31 LOD ax+rtvar, 0
+32 LOD bx+rtvar, 0
+33 JMP 0, _jumptable+rtfn
+34 LOD vec+pointer_int@1*2, 0
+35 STO 0, ax+rtvar
+36 STO 0, bx+rtvar
+37 LOD ax+rtvar, 0
+38 LOD bx+rtvar, 0
+39 JMP 0, _jumptable+rtfn
+40 LOD vec+pointer_int@1*3, 0
+41 STO 0, ax+rtvar
+42 STO 0, bx+rtvar
+43 LOD ax+rtvar, 0
+44 LOD bx+rtvar, 0
+45 JMP 0, _jumptable+rtfn
+46 LOD vec+pointer_int@1*4, 0
+47 STO 0, ax+rtvar
+48 STO 0, bx+rtvar
+49 LOD ax+rtvar, 0
+50 LOD bx+rtvar, 0
+51 JMP 0, _jumptable+rtfn
+52 LOD vec+pointer_int@1*5, 0
+53 STO 0, ax+rtvar
+54 STO 0, bx+rtvar
+55 LOD ax+rtvar, 0
+56 LOD bx+rtvar, 0
+57 JMP 0, _jumptable+rtfn
+58 LOD vec+pointer_int@1*6, 0
+59 STO 0, ax+rtvar
+60 STO 0, bx+rtvar
+61 LOD ax+rtvar, 0
+62 LOD bx+rtvar, 0
+63 JMP 0, _jumptable+rtfn
+64 LOD vec+pointer_int@1*7, 0
+65 STO 0, ax+rtvar
+66 STO 0, bx+rtvar
+67 LOD ax+rtvar, 0
+68 LOD bx+rtvar, 0
+69 JMP 0, _jumptable+rtfn
+70 LOD vec+pointer_int@1*8, 0
+71 STO 0, ax+rtvar
+72 STO 0, bx+rtvar
+73 LOD ax+rtvar, 0
+74 LOD bx+rtvar, 0
+75 JMP 0, _jumptable+rtfn
+76 LOD vec+pointer_int@1*9, 0
+77 STO 0, ax+rtvar
+78 STO 0, bx+rtvar
+79 LOD ax+rtvar, 0
+80 LOD bx+rtvar, 0
+81 JMP 0, _jumptable+rtfn
+82 STO 0, ix+rtvar
+83 LOD ix+rtvar, 0
+84 JMC 0, 103
+85 LOD ix+rtvar, 0
+86 JMC 1, 105
+87 LOD ix+rtvar, 0
+88 JMC 2, 107
+89 LOD ix+rtvar, 0
+90 JMC 3, 109
+91 LOD ix+rtvar, 0
+92 JMC 4, 111
+93 LOD ix+rtvar, 0
+94 JMC 5, 113
+95 LOD ix+rtvar, 0
+96 JMC 6, 115
+97 LOD ix+rtvar, 0
+98 JMC 7, 117
+99 LOD ix+rtvar, 0
+100 JMC 8, 119
+101 LOD ix+rtvar, 0
+102 JMC 9, 121
+103 STO 0, vec+pointer_int@1*0
+104 JMP 0, _jumptable+rtfn
+105 STO 0, vec+pointer_int@1*1
+106 JMP 0, _jumptable+rtfn
+107 STO 0, vec+pointer_int@1*2
+108 JMP 0, _jumptable+rtfn
+109 STO 0, vec+pointer_int@1*3
+110 JMP 0, _jumptable+rtfn
+111 STO 0, vec+pointer_int@1*4
+112 JMP 0, _jumptable+rtfn
+113 STO 0, vec+pointer_int@1*5
+114 JMP 0, _jumptable+rtfn
+115 STO 0, vec+pointer_int@1*6
+116 JMP 0, _jumptable+rtfn
+117 STO 0, vec+pointer_int@1*7
+118 JMP 0, _jumptable+rtfn
+119 STO 0, vec+pointer_int@1*8
+120 JMP 0, _jumptable+rtfn
+121 STO 0, vec+pointer_int@1*9
+122 JMP 0, _jumptable+rtfn
+123 STO 0, return_dir+rtvar
+124 STO 0, ax+rtvar
+125 STO 0, n+var_int@1
+126 STO 0, arr+pointer_int@1=
+127 STO 0, arr+pointer_int@1
+128 LOD ax+rtvar, 0
+129 LIT 0, 0
+130 STO 0, i+var_int@2
+131 LIT 0, 0
+132 STO 0, j+var_int@2
+133 LIT 0, 0
+134 STO 0, tmp+var_int@1
+135 LIT 0, 0
+136 STO 0, i+var_int@2
+137 LOD i+var_int@2, 0
+138 LOD n+var_int@1, 0
+139 LIT 2, 0
+140 OPR 0, 3
+141 OPR 0, 11
+142 JMC F, 191
+143 LOD i+var_int@2, 0
+144 LIT 1, 0
+145 OPR 0, 2
+146 STO 0, j+var_int@2
+147 LOD j+var_int@2, 0
+148 LOD n+var_int@1, 0
+149 LIT 1, 0
+150 OPR 0, 3
+151 OPR 0, 11
+152 JMC F, 186
+153 LIT 157, 0
+154 LOD i+var_int@2, 0
+155 LOD arr+pointer_int@1, 0
+156 JMP 0, _jumptable+rtfn
+157 LIT 161, 0
+158 LOD j+var_int@2, 0
+159 LOD arr+pointer_int@1, 0
+160 JMP 0, _jumptable+rtfn
+161 OPR 0, 10
+162 JMC F, 181
+163 LIT 167, 0
+164 LOD i+var_int@2, 0
+165 LOD arr+pointer_int@1, 0
+166 JMP 0, _jumptable+rtfn
+167 STO 0, tmp+var_int@1
+168 LIT 176, 0
+169 LIT 173, 0
+170 LOD j+var_int@2, 0
+171 LOD arr+pointer_int@1, 0
+172 JMP 0, _jumptable+rtfn
+173 LOD i+var_int@2, 0
+174 LOD arr+pointer_int@1=, 0
+175 JMP 0, _jumptable+rtfn
+176 LIT 181, 0
+177 LOD tmp+var_int@1, 0
+178 LOD j+var_int@2, 0
+179 LOD arr+pointer_int@1=, 0
+180 JMP 0, _jumptable+rtfn
+181 LOD j+var_int@2, 0
+182 LIT 1, 0
+183 OPR 0, 2
+184 STO 0, j+var_int@2
+185 JMP 0, 147
+186 LIT 1, 0
+187 LOD i+var_int@2, 0
+188 OPR 0, 2
+189 STO 0, i+var_int@2
+190 JMP 0, 137
+191 LOD return_dir+rtvar, 0
+192 JMP 0, _jumptable+rtfn
+193 STO 0, return_dir+rtvar
+194 STO 0, ax+rtvar
+195 STO 0, n+var_int@2
+196 STO 0, arr+pointer_int@2=
+197 STO 0, arr+pointer_int@2
+198 LOD ax+rtvar, 0
+199 LIT 0, 0
+200 STO 0, i+var_int@2
+201 LIT vec=[, 0
+202 OPR 0, 20
+203 LIT . , 0
+204 LIT 208, 0
+205 LOD i+var_int@2, 0
+206 LOD arr+pointer_int@2, 0
+207 JMP 0, _jumptable+rtfn
+208 OPR 0, 20
+209 OPR 0, 20
+210 LOD i+var_int@2, 0
+211 LIT 1, 0
+212 OPR 0, 2
+213 STO 0, i+var_int@2
+214 LOD i+var_int@2, 0
+215 LOD n+var_int@2, 0
+216 OPR 0, 14
+217 JMC F, 203
+218 LIT ], 0
+219 LIT 225, 0
+220 LOD n+var_int@2, 0
+221 LIT 1, 0
+222 OPR 0, 3
+223 LOD arr+pointer_int@2, 0
+224 JMP 0, _jumptable+rtfn
+225 OPR 0, 20
+226 OPR 0, 20
+227 LIT , 0
+228 OPR 0, 21
+229 LOD return_dir+rtvar, 0
+230 JMP 0, _jumptable+rtfn
+231 LOD vec+pointer_int@1, 0
+232 LOD vec+pointer_int@1=, 0
+233 LOD TAM+var_int@1, 0
+234 LOD return_dir+rtvar, 0
+235 LIT 237, 0
+236 JMP 0, 123
+237 STO 0, return_dir+rtvar
+238 LOD vec+pointer_int@1, 0
+239 LOD vec+pointer_int@1=, 0
+240 LOD TAM+var_int@1, 0
+241 LOD return_dir+rtvar, 0
+242 LIT 244, 0
+243 JMP 0, 193
+244 STO 0, return_dir+rtvar
+245 OPR 0, 0
+246 STO 0, jx+rtvar
+247 LOD jx+rtvar, 0
+248 JMC 1, 1
+249 LOD jx+rtvar, 0
+250 JMC 82, 82
+251 LOD jx+rtvar, 0
+252 JMC 157, 157
+253 LOD jx+rtvar, 0
+254 JMC 161, 161
+255 LOD jx+rtvar, 0
+256 JMC 167, 167
+257 LOD jx+rtvar, 0
+258 JMC 173, 173
+259 LOD jx+rtvar, 0
+260 JMC 176, 176
+261 LOD jx+rtvar, 0
+262 JMC 181, 181
+263 LOD jx+rtvar, 0
+264 JMC 208, 208
+265 LOD jx+rtvar, 0
+266 JMC 225, 225
+267 LOD jx+rtvar, 0
+268 JMC 237, 237
+269 LOD jx+rtvar, 0
+270 JMC 244, 244

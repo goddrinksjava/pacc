@@ -1,0 +1,25 @@
+constante entero TAM=10;
+entero i, j, k=10, vec[TAM]={12, -1, 0, 99, 18, 23, 55, 10, 25, 30};
+
+nulo ordBurbuja(entero *arr, entero n) {
+   entero i, j, tmp;
+   desde i=0 hasta n-2 incr 1{
+     j=i+1;
+     mientras que j<=n-1 {
+        si arr[i] > arr[j] hacer {
+           tmp = arr[i];
+           arr[i] = arr[j];
+			  arr[j] = tmp;
+        }
+        j = j + 1;
+      }
+   }
+}
+
+nulo principal() {
+  ordBurbuja(vec, TAM);
+  
+  desde i=0 hasta TAM-1 incr 1 {
+    imprimenl(i, "=", vec[i]); 
+  }
+}

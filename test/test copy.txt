@@ -1,0 +1,13 @@
+constante entero n=5;
+
+
+nulo principal() {
+    entero i, j;
+    
+    desde i=0 hasta n-2 incr 1{
+        j=i+1;
+        mientras que j<=n-1 {
+            imprimenl(i, ", ", j);
+        }
+    }
+}

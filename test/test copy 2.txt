@@ -1,0 +1,20 @@
+constante entero TAM=10;
+entero i, j, k=10;
+
+entero facRec(entero num) {
+   si num == 0 o num == 1 hacer {
+      imprimenl("ReturnedSi ", 1); 
+      regresa 1;
+   }
+   sino {
+      entero v = num * facRec(num-1);
+      imprimenl("ReturnedSino ", v); 
+      regresa v;
+   }
+}
+
+nulo principal() {
+   imprime("Dame numero: ");
+   lee(i);
+   imprimenl("Factorial(", i, ")=", facRec(i)); 
+}
